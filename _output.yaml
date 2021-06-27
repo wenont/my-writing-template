@@ -1,0 +1,53 @@
+---
+# Front matter
+# lang: en # Use language codes like de, de-DE, en, en-UK, en-US, fr, it, ...
+title: "Ein schöner Titel"
+# subtitle: "ein wundervoller Untertitel"
+author: "Wensheng Zhang"
+date: \today
+output: 
+  pdf_document:
+    pandoc_args: ["--listings"]
+fontsize: 11pt
+papersize: A4
+geometry:
+- right=3cm
+- left=3cm
+- top=2cm 
+- bottom=2cm
+- heightrounded
+#toc:
+#  depth_from: 1
+#  depth_to: 6
+#  ordered: false
+header-includes: |
+  \usepackage{listings}
+  \usepackage{xcolor}
+  \definecolor{codegreen}{rgb}{0,0.6,0}
+  \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+  \definecolor{codepurple}{rgb}{0.58,0,0.82}
+  \definecolor{backcolour}{rgb}{0.95,0.95,0.95}
+  \lstdefinestyle{mystyle}{
+      backgroundcolor=\color{backcolour},   
+      commentstyle=\color{codegreen},
+      keywordstyle=\color{magenta},
+      numberstyle=\tiny\color{codegray},
+      stringstyle=\color{codepurple},
+      basicstyle=\ttfamily\footnotesize,
+      breakatwhitespace=false,         
+      breaklines=true,                 
+      captionpos=b,                    
+      keepspaces=true,                 
+      numbers=left,                    
+      numbersep=5pt,                  
+      showspaces=false,                
+      showstringspaces=false,
+      showtabs=false,                  
+      tabsize=2
+  }
+  \lstset{style=mystyle}
+
+# abstract: "Hier Vorgang ihm als reiße. Ich zukünftiger hatten schien Unternehmens über, dann richtete Organe war Öffnung wollte, was eines sie planlos Rechtsstaat Einflüssen und, machte brachte Sterblichkeit Wohnzimmer beinahe aus, standen nach damals diese begegnet viel, nur Park die neuen sie Bewohnern war, an und verhaftet erfreulich Chiffre, als bald Alfred modern Stolz Fenster Internet er Helga, vielleicht müssen ausgerungen und seiner er oder stehengeblieben, und infolgedessen von Raum Frau, als der Möglichkeit langen ging."
+# keywords: "Schlagworte, Worte"
+# thanks: "Herzlichen Dank an Gabriela Muster für die wertvollen Kommentare."
+---
